@@ -1,1 +1,31 @@
-node_modules
+# Системні файли
+.DS_Store
+Thumbs.db
+
+# Файли IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Локальні залежності
+node_modules/
+vendor/
+
+# Згенеровані файли
+dist/
+build/
+*.log
+*.tmp
+*.out
+
+# Файли конфігурації
+.env
+*.local
+
+# Інші файли
+coverage/
+*.bak
+*.swp
+*.swo
